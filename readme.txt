@@ -126,5 +126,7 @@ I'm open to discussing new opportunities and collaborations. Reach out to me thr
 Email: abdallalfareed@gmail.com
 LinkedIn: Abdalla Asaad
 GitHub: Abdalla Asaad
+Website: https://abdallaasaad.github.io/abilities-application/
+Git public repository: https://github.com/abdallaasaad/abilities-application
 Thank you for visiting my portfolio! I look forward to connecting with you.
 
