@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Information</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="./scripts/main.js" defer async></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left" id="welcoming">Hi User</div>
+      <div class="navbar-right">
+        <a href="https://www.google.com" id="logout">Logout</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="header">
+        <h1>Weather Information</h1>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Enter city name" id="city-input" />
+        <button id="search-button">Search</button>
+      </div>
+      <div class="country-flag">
+        <img src="#" alt="Country Flag" id="flag" />
+      </div>
+      <div class="weather-info" id="weather-info">
+        <div class="info-box city-name">
+          <span style="font-size: 100px">&#127961;</span>
+          City:<span id="name"> </span>
+        </div>
+        <div class="info-box current-temp">
+          <span style="font-size: 100px">&#127777;</span>
+          Current Temperature:<span id="temp"> </span>°C
+        </div>
+        <div class="info-box feels-like">
+          <span style="font-size: 100px">&#129398;</span>
+          Feels Like:<span id="feels_like"> </span> °C
+        </div>
+        <div class="info-box temp-min">
+          <span style="font-size: 100px">&#11015;</span>
+          Min Temperature:<span id="temp_min"> </span> °C
+        </div>
+        <div class="info-box temp-max">
+          <span style="font-size: 100px">&#11014;</span>
+          Max Temperature:<span id="temp_max"> </span> °C
+        </div>
+        <div class="info-box weather-description">
+          <span style="font-size: 100px">&#127774;</span>
+          Weather:<span id="description"> </span>
+        </div>
+        <div class="info-box wind-speed">
+          <span style="font-size: 100px">&#127788;</span>
+          Wind Speed:<span id="speed"> </span> m/s
+        </div>
+        <div class="info-box humidity">
+          <span style="font-size: 100px">&#128167;</span>
+          Humidity:<span id="humidity"> </span> %
+        </div>
+        <div class="info-box sunrise">
+          <span style="font-size: 100px">&#127749;</span>
+          Sunrise:<span id="sunrise"> </span>
+        </div>
+        <div class="info-box sunset">
+          <span style="font-size: 100px">&#127751;</span>
+          Sunset:<span id="sunset"> </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

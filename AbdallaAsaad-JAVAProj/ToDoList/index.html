@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elegant Full-Screen To-Do List</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="body">
+    <div id="appContainer" class="app-container">
+      <header id="header">
+        <h1 id="appTitle">✨ My Elegant Tasks ✨</h1>
+      </header>
+      <main id="mainContent">
+        <section id="inputSection" class="input-section">
+          <input
+            type="text"
+            id="taskInput"
+            placeholder="What needs to be done?"
+          />
+          <button id="addTaskButton">Add Task</button>
+        </section>
+        <section id="tasksContainer" class="tasks-container">
+          <div id="todoTasksSection" class="todo-tasks">
+            <h2 id="todoTitle">Tasks To Do</h2>
+            <ul id="todoList"></ul>
+          </div>
+          <div id="completedTasksSection" class="completed-tasks">
+            <h2 id="completedTitle">Completed Tasks</h2>
+            <ul id="completedList"></ul>
+          </div>
+        </section>
+      </main>
+      <footer id="footer">
+        <p id="footerText">Stay organized, stay productive!</p>
+      </footer>
+    </div>
+    <script src="./scripts/app.js" type="module"></script>
+  </body>
+</html>

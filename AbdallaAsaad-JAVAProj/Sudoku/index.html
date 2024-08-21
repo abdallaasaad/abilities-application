@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoku Challenge</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Sudoku Challenge</h1>
+    </header>
+
+    <main>
+      <div id="game-container">
+        <div id="player-form">
+          <input type="text" id="player-name" placeholder="Enter your name" />
+          <button id="start-game" class="btn">Start Game</button>
+        </div>
+        <span id="mistakes" style="color: darkblue"
+          >num of Mistakes:
+          <div id="myMistakesDiv"></div>
+          /5
+        </span>
+        <div id="sudoku-board"></div>
+        <div class="controls">
+          <button id="new-game" class="btn">New Game</button>
+          <!-- <button id="check-solution" class="btn" disabled> -->
+          <!-- Check Current Solution
+          </button> -->
+          <button id="reset-game" class="btn">Reset</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Sudoku Challenge. All rights reserved.</p>
+    </footer>
+    <script src="./scripts/sudoku.js"></script>
+    <script src="./scripts/app.js" type="module" defer></script>
+  </body>
+</html>
